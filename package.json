@@ -1,0 +1,30 @@
+{
+  "name": "dscape-mind-explosion-database",
+  "version": "0.0.0",
+  "description": "DATABASE FOR DSCAPE TO TEACH CHILDREN!",
+  "main": "index.js",
+  "dependencies": {
+    "bytewise": "~0.5.0",
+    "leveldown": "~0.6.2",
+    "levelup": "~0.12.0",
+    "node-uuid": "~1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeal/dscape-mind-explosion-database"
+  },
+  "keywords": [
+    "leveldb",
+    "levelup",
+    "level"
+  ],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/mikeal/dscape-mind-explosion-database/issues"
+  }
+}
