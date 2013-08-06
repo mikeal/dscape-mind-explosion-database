@@ -9,6 +9,9 @@ function Index (file) {
 Index.prototype.put = function (key, value, cb) {
   this.lev.put(bytewise.encode([key, uuid()]), value, cb)
 }
+Index.prototype.replace = function (key, value, cb) {
+  this.lev.put(bytewise.encode([key]), value, cb)
+}
 Index.prototype.query = function (start, end, cb) {
   var results = []
     , reader = this.lev.createReadStream(
