@@ -1,6 +1,6 @@
 {
   "name": "dscape-mind-explosion-database",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "DATABASE FOR DSCAPE TO TEACH CHILDREN!",
   "main": "index.js",
   "dependencies": {
