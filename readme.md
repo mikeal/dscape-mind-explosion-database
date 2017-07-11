@@ -32,3 +32,5 @@ index.put(['name', 0], 1, function (e) {
   })
 })
 ```
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mikeal/dscape-mind-explosion-database.svg)](https://greenkeeper.io/)
